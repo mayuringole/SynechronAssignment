@@ -1,0 +1,24 @@
+<div class="row book__header-cont">
+  <div class="col-md-9 book__header">
+      <h2>Book Details</h2>
+  </div>
+  <div class="col-md-3 book__issue-button">
+    <button (click)="onIssue(bookInfo)" [disabled]="alreadyIssued" class="btn btn-primary" [ngClass]="{'disable-button': alreadyIssued}">Issue Book</button>
+  </div>
+</div>
+<div *ngIf="alreadyIssued" class="alert alert-danger book__alert-msg">
+    This book is already issued.
+  </div>
+<div class="row book__details-cont">
+  <div class="col-md-3 book__details-img">
+    <h3>
+      <img src="{{bookInfo.img}}" alt="{{bookInfo.bookTitle}}" class="img-responsive">
+    </h3>
+  </div>
+  <div class="col-md-9 book__details">
+    <h3>{{bookInfo.bookTitle}}</h3>
+    <p><strong>Author: </strong>{{bookInfo.author}}</p>
+    <p><strong>Type: </strong>{{bookInfo.type}}</p>
+    <p><strong>Discription: </strong>{{bookInfo.discription}}</p>
+  </div>
+</div>

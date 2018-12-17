@@ -1,0 +1,45 @@
+{
+    "response": "SUCCESS",
+    "data": [
+        {
+            "id": 1,
+            "bookTitle": "Life of Pi",
+            "author": "Yann Martel",
+            "type": "Adventure",
+            "discription": "Pi and his family, who own a zoo, decide to emigrate from India. On the way, tragedy strikes and their ship is sunk. Pi finds himself in a lifeboat with a hyena, a zebra, a tiger and an orangutan. He manages to keep his wits as the food chain establishes itself.",
+            "img": "http://books.google.com/books/content?id=2ZlrPOOLqUgC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        {
+            "id": 2,
+            "bookTitle": "how i braved anu aunty and co-founded a million dollar company",
+            "author": "Varun Agarwal",
+            "type": "Fiction",
+            "discription": "Varun is a recent engineering graduate. His hours are filled with friends, pub hopping, and stalking his love-interest on Facebook. Through it all though, Varun harbours ambitions of becoming a successful entrepreneur. Meanwhile, Varuns mother, who is disturbed by her sons lack of focus on life, ThemeddlingAnuAunty is more than willing to take up this assignment. How Varun dodges Anu Auntys nosey, irksome ways, en route to realizing his entrepreneurial dreams, makes for a story worth reading.",
+            "img": "http://books.google.com/books/content?id=EThOjZ62SIsC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        {
+            "id": 3,
+            "bookTitle": "Game of Thrones",
+            "author": "George R. R. Martin",
+            "type": "Adventure",
+            "discription": "A NEW ORIGINAL SERIES, NOW ON HBO. Here is the first volume in George R. R. Martin's magnificent cycle of novels that includes \"A Clash of Kings\" and \"A Storm of Swords.\" As a whole, this series comprises a genuine masterpiece of modern fantasy, bringing together the best the genre has to offer. Magic, mystery, intrigue, romance, and adventure fill these pages and transport us to a world unlike any we have ever experienced. Already hailed as a classic, George R. R. Martin's stunning series is destined to stand as one of the great achievements of imaginative fiction.",
+            "img": "http://books.google.com/books/content?id=hffZtgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        {
+            "id": 4,
+            "bookTitle": "Crux Ansata",
+            "author": "H. G. Wells",
+            "type": "Entertainment",
+            "discription": "This is Entertainment book written by H. G. Wells. Thanks for reading it. This is sample description of the book.",
+            "img": "http://books.google.com/books/content?id=yaL7mq8bJt8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        {
+            "id": 5,
+            "bookTitle": "Speculative Science",
+            "author": "H. G. Wells",
+            "type": "Entertainment",
+            "discription": "Compiled in one book, the essential collection of speculative science fiction books: Looking Backward 2000-1887, Edward Bellamy Flatland, a romance of many dimensions, Edwin Abbott Abbott Utopia, Thomas More Gulliver of Mars, Edwin L. Arnold The Emerald City of Oz, L. Frank Baum The Time Machine, H. G. (Herbert George) Wells Anthem, by Ayn Rand A Voyage to Arcturus, David Lindsay 20000 Leagues Under the Seas, Jules Verne All Around the Moon, Jules Verne The Brick Moon, Edward Everett Hale The Land That Time Forgot, Edgar Rice Burroughs The Lost Continent, Edgar Rice Burroughs The Lost Continent, The Story of Atlantis, C. J. Cutcliffe Hyne The Strange Case of Dr. Jekyll and Mr. Hyde, Robert Louis Stevenson Tarzan of the Apes, Edgar Rice Burroughs",
+            "img": "http://books.google.com/books/content?id=ZY1fWu1qZfUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }
+    ]
+}

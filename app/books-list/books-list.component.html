@@ -1,0 +1,27 @@
+<div class="row book-list__main-cont">
+  <div class="col-md-6 book-list__cont" >
+      <h2 class="book-list__header">My Library</h2>
+    <div class="test" *ngFor="let book of booksDetail">
+      <a (click)="showBookDetails(book)" class="list-group-item clearfix book-list__item">
+      <div class="row">
+          <div class="col-md-9 book-list__info">
+              <div class="row">
+                <h4>{{book.bookTitle}}</h4>
+              </div>
+              <div class="row">
+                <p>by - {{book.author}}</p>
+              </div>
+            </div>
+            <div class="col-md-3 book-list__img">
+              <span class="pull-right">
+                <img src="{{book.img}}" alt="{{book.bookTitle}}" class="img-responsive" style="max-height:100px;">
+              </span>
+            </div>
+          </div>
+        </a>
+    </div>
+  </div>
+  <div class="col-md-6" *ngIf="showBook">
+    <app-book [bookInfo]= "bookInfo"></app-book>
+  </div>
+</div>

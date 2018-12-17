@@ -1,0 +1,33 @@
+.header {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color:#303030;
+}
+.header__text {
+    padding-top: 15px;
+    color: white;
+}
+.header__library-img{
+    width: 150px;
+    height: 75px;
+    float: right;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+.header__library-img {
+    float: unset;
+}
+}
+@media (min-width: 375px) and (max-width: 667px) {
+    .header__text {
+        padding-top: 0;
+    }
+    .header__library-img {
+        width: 120px;
+    }
+.header__text-cont {
+max-width: 60%;
+}
+.header__img {
+    max-width: 40%;
+}
+}

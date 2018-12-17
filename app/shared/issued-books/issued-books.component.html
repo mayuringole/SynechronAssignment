@@ -1,0 +1,16 @@
+<h3 class="issued-books__header">
+  Issued Books Details
+</h3>
+ <table class="issued-books__table" style="width:100%">
+        <tr>
+          <th>Book Name</th>
+          <th>Author</th>
+          <th>Book Type</th>
+        </tr>
+        <tr *ngFor="let book of booksDetails">
+              <td>{{book.bookTitle}}</td>
+              <td>{{book.author}}</td>
+              <td>{{book.type}}</td>
+            </tr>
+      </table>
+<button (click)="onBack()" class="btn btn-primary issued-books__back-button">Back</button>

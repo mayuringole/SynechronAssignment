@@ -1,7 +1,10 @@
 <h3 class="issued-books__header">
   Issued Books Details
 </h3>
- <table class="issued-books__table" style="width:100%">
+<div *ngIf="noBooksIssued" class="alert alert-info book__alert-msg">
+    No books are issued yet, go Back and issue your favorite book.
+  </div>
+ <table *ngIf="!noBooksIssued" class="issued-books__table" style="width:100%">
         <tr>
           <th>Book Name</th>
           <th>Author</th>

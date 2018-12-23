@@ -31,4 +31,8 @@ export class BooksListComponent implements OnInit {
     this.bookInfo = book;
   }
 
+  showIssuedBooks() {
+    this.router.navigate(['/issued-books']);
+  }
+
 }
